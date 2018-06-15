@@ -1,0 +1,19 @@
+﻿Build started 12/11/2016 9:08:31 PM.
+     1>Project "C:\Users\Kory\documents\visual studio 2013\Projects\CrankNicolsonMod3\CrankNicolsonMod3\CrankNicolsonMod3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\CrankNicolsonMod3.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CrankNicolsonMod3.cpp
+         CrankNicolsonMod3.cpp
+     1>c:\users\kory\documents\visual studio 2013\projects\cranknicolsonmod3\cranknicolsonmod3\functiondefs.h(11): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\kory\documents\visual studio 2013\projects\cranknicolsonmod3\cranknicolsonmod3\functiondefs.h(13): warning C4018: '<' : signed/unsigned mismatch
+     1>CrankNicolsonMod3.cpp(40): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kory\documents\visual studio 2013\Projects\CrankNicolsonMod3\Release\CrankNicolsonMod3.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kory\documents\visual studio 2013\Projects\CrankNicolsonMod3\Release\CrankNicolsonMod3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kory\documents\visual studio 2013\Projects\CrankNicolsonMod3\Release\CrankNicolsonMod3.lib" /MACHINE:X86 /SAFESEH Release\CrankNicolsonMod3.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         CrankNicolsonMod3.vcxproj -> C:\Users\Kory\documents\visual studio 2013\Projects\CrankNicolsonMod3\Release\CrankNicolsonMod3.exe
+     1>Done Building Project "C:\Users\Kory\documents\visual studio 2013\Projects\CrankNicolsonMod3\CrankNicolsonMod3\CrankNicolsonMod3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.65

@@ -1,0 +1,4 @@
+do for [i=0:n:inc]{
+plot 'psi.txt' using ($1):($2) every :::i::i with l title sprintf("Time: %f",(i+1)*0.001) 
+}
+unset terminal

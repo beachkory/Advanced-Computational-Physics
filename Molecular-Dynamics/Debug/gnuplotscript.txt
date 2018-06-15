@@ -1,0 +1,14 @@
+set size ratio 1
+set ylabel "y"
+set xlabel "x"
+set title "Finite Element Method for the Equation y'' - 6x^2 = 0"
+infile = "molecular_dynamics.txt"
+
+#defining variables
+L= 50
+
+
+#drawing lines and axis labels
+#set xtics ("{/Symbol G}" 0, "X" a, "M" b, "R" c, "{/Symbol G}" d)
+
+plot[0:L][0:L] infile u ($3):($4) with points pointtype 15 notitle

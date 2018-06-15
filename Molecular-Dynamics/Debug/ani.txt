@@ -1,0 +1,4 @@
+do for [i=0:n:inc]{
+plot 'molecular_dynamics.txt' using ($1):($2) every :::i::i with points pt 7 ps 2  title sprintf("Time: %f",(i+1)*0.001) 
+}
+unset terminal
