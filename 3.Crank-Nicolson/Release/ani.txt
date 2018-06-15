@@ -1,0 +1,5 @@
+do for [i=0:n]{
+plot 'psi.txt' using ($1):($2) every :::i::i with l title "Crank Nicolson",  'psiexp.txt' using ($1):($2) every :::i::i with l title "Explicit Scheme"
+#plot 'psi.txt' using ($1):($2) every :::i::i with l title "Crank Nicolson", 'Vout.txt' u 1:2 w l title "Vo = 3"
+}
+unset terminal
